@@ -1,0 +1,10 @@
+subset,timing,n,snr_excl,p
+all,strategic,425,1.052,0.39
+all,regular,404,1.561,0.0025
+all,late,73,1.594,0.0075
+cross_only,strategic,299,1.051,0.355
+cross_only,regular,390,1.584,0.005
+cross_only,late,71,1.576,0.0125
+same_only,strategic,126,,
+same_only,regular,14,,
+same_only,late,2,,

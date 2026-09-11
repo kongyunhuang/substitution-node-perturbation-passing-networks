@@ -1,0 +1,8 @@
+step,N,note
+0 all substitution batches (licensed La Liga 2023/24),2075,substitution_batches.csv
+1 post-window not truncated (W=15),1542,batch_flags post_truncated=False
+2 and a matched control exists,959,did_controls control_type!=none
+"-> SNR analysis (teammates-only DiD, three groups)",902,"per group n={'strategic': 425, 'regular': 404, 'late': 73}; at least 10 passes in each window"
+-> territorial (d_terr) analysis,940,"per group n={'strategic': 437, 'regular': 417, 'late': 86}; territory needs at least 5 completed passes (looser window criterion)"
+-> screen of the 11 outcomes,1489,all batches of analysis_table with volume residualization; looser window requirement
+-> bias predictability,1461,batches whose perturber footprint cosine is estimable

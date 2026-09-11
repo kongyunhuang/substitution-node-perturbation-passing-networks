@@ -1,0 +1,40 @@
+analysis,target,method,n,n_clusters,estimate,p,ci_lo,ci_hi,note
+A_snr_flip,strategic,flip_batch(orig),425,425,1.0522,0.39,,,"replicates control_robustness: expected SNR=1.052,p=0.39; N=73; boot800/flip400; seed20260613"
+A_snr_flip,regular,flip_batch(orig),404,404,1.561,0.0025,,,"replicates control_robustness: expected SNR=1.561,p=0.0025; N=73; boot800/flip400; seed20260613"
+A_snr_flip,late,flip_batch(orig),73,73,1.5944,0.0075,,,"replicates control_robustness: expected SNR=1.594,p=0.0075; N=73; boot800/flip400; seed20260613"
+A_snr_flip,strategic,flip_team_match,425,377,1.0564,0.34,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+A_snr_flip,regular,flip_team_match,404,366,1.5551,0.0075,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+A_snr_flip,late,flip_team_match,73,73,1.6159,0.0075,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+A_snr_flip,strategic,flip_team,425,20,1.0662,0.34,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+A_snr_flip,regular,flip_team,404,20,1.5143,0.0125,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+A_snr_flip,late,flip_team,73,20,1.5588,0.0125,,,obs identical to per-batch version; p resolution 1/400; seed20260613
+B_dterr,all:excl,ttest_batch(orig),940,940,1.074,0.039337,0.0526,2.0954,per-batch one-sample t
+B_dterr,all:excl,boot_team_match,940,618,1.074,0.034983,0.0824,2.0413,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,all:excl,wild_boot_team,940,20,1.074,0.034983,0.0923,2.0557,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,all:incl,ttest_batch(orig),940,940,1.4028,0.00596,0.404,2.4017,per-batch one-sample t
+B_dterr,all:incl,boot_team_match,940,618,1.4028,0.004998,0.4365,2.374,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,all:incl,wild_boot_team,940,20,1.4028,0.003498,0.5186,2.2871,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,strategic:excl,ttest_batch(orig),437,437,0.3887,0.60045,-1.0689,1.8463,per-batch one-sample t
+B_dterr,strategic:excl,boot_team_match,437,383,0.3887,0.585707,-0.9112,1.9279,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,strategic:excl,wild_boot_team,437,20,0.3887,0.574213,-1.0728,1.8502,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,strategic:incl,ttest_batch(orig),437,437,0.7414,0.309908,-0.6919,2.1747,per-batch one-sample t
+B_dterr,strategic:incl,boot_team_match,437,383,0.7414,0.293853,-0.5646,2.2046,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,strategic:incl,wild_boot_team,437,20,0.7414,0.277361,-0.6974,2.1801,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,regular:excl,ttest_batch(orig),417,417,1.2317,0.131235,-0.3693,2.8326,per-batch one-sample t
+B_dterr,regular:excl,boot_team_match,417,372,1.2317,0.147926,-0.4624,2.902,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,regular:excl,wild_boot_team,417,20,1.2317,0.21939,-0.7139,3.1773,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,regular:incl,ttest_batch(orig),417,417,1.5738,0.05013,-0.0009,3.1485,per-batch one-sample t
+B_dterr,regular:incl,boot_team_match,417,372,1.5738,0.05997,-0.0718,3.2521,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,regular:incl,wild_boot_team,417,20,1.5738,0.056472,-0.0338,3.1815,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,late:excl,ttest_batch(orig),86,86,3.7917,0.019008,0.6387,6.9446,per-batch one-sample t
+B_dterr,late:excl,boot_team_match,86,86,3.7917,0.016992,0.8699,6.7674,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,late:excl,wild_boot_team,86,20,3.7917,0.004498,1.4331,6.1503,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+B_dterr,late:incl,ttest_batch(orig),86,86,3.9348,0.007791,1.0645,6.8051,per-batch one-sample t
+B_dterr,late:incl,boot_team_match,86,86,3.9348,0.007996,1.2717,6.6028,"cluster bootstrap B=2000 seed20260808; percentile CI; p=2*min tail, +1 correction"
+B_dterr,late:incl,wild_boot_team,86,20,3.9348,0.003498,1.6933,6.1763,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"
+C_consequence,d_terr,mixedlm_match(orig),1490,380,1.5909,5.8e-05,,,"replicates consequence_mine.csv; converged=False; q_BH ~ p x 11 (11 outcomes, smallest p)"
+C_consequence,d_terr,mixedlm_crossed_match_team,1490,400,1.6409,3.2e-05,,,"single group + vc(match,team); match=1.913; team=84.508; converged=False; raw team-mean SD=1.65 (var ~2.7, incl. sampling noise); team vcomp contradicts this -> degenerate, do not cite; use team-only / OLS-CR / wild boot"
+C_consequence,d_terr,mixedlm_team,1490,20,1.6127,4.3e-05,,,converged=False
+C_consequence,d_terr,ols_cluster_team,1490,20,1.5905,0.006631,0.498,2.683,"cluster-robust SE, use_t, df ~ G-1"
+C_consequence,d_terr,ols_cluster_match,1490,380,1.5905,0.001709,0.6006,2.5804,"cluster-robust SE, use_t, df ~ G-1"
+C_consequence,d_terr,ols_wild_boot_team,1490,20,1.5905,0.006997,0.5083,2.6728,"wild cluster (Rademacher, H0 imposed) B=2000 seed20260808; CR1; 95% symmetric bootstrap-t CI"

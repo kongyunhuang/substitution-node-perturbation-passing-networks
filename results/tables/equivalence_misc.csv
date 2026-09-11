@@ -1,0 +1,192 @@
+section,item,metric,value,note
+A_tost,d_terr,n,1490,territory (mean x) delta
+A_tost,d_terr,partial_r,0.10419828866649168,
+A_tost,d_terr,r_lo95,0.053421768171709384,
+A_tost,d_terr,r_hi95,0.15497480916127399,
+A_tost,d_terr,p_tost_sesoi_0.10,0.564369168871057,not shown equivalent
+A_tost,d_terr,p_tost_sesoi_0.05,0.9817844105665,"inconclusive at 0.05; structural outcome (significant), reference only, not in the equivalence verdict"
+A_tost,d_prog,n,1490,forward-pass share delta
+A_tost,d_prog,partial_r,-0.04401017895552927,
+A_tost,d_prog,r_lo95,-0.09478669945031157,
+A_tost,d_prog,r_hi95,0.006766341539253026,
+A_tost,d_prog,p_tost_sesoi_0.10,0.0153385529752873,equivalent
+A_tost,d_prog,p_tost_sesoi_0.05,0.408575754731219,inconclusive at 0.05
+A_tost,d_compl,n,1490,pass completion delta
+A_tost,d_compl,partial_r,0.0328357907350744,
+A_tost,d_compl,r_lo95,-0.017940729759707896,
+A_tost,d_compl,r_hi95,0.0836123112298567,
+A_tost,d_compl,p_tost_sesoi_0.10,0.004763044265795409,equivalent
+A_tost,d_compl,p_tost_sesoi_0.05,0.253810243138739,inconclusive at 0.05
+A_tost,net_after,n,1490,net goals after post-window
+A_tost,net_after,partial_r,0.029655805505934385,
+A_tost,net_after,r_lo95,-0.021120714988847912,
+A_tost,net_after,r_hi95,0.08043232600071668,
+A_tost,net_after,p_tost_sesoi_0.10,0.003310564387688249,equivalent
+A_tost,net_after,p_tost_sesoi_0.05,0.21613988882908242,inconclusive at 0.05
+A_tost,opp_d_terr,n,1489,opponent territory delta
+A_tost,opp_d_terr,partial_r,-0.028909051716063464,
+A_tost,opp_d_terr,r_lo95,-0.0797026198932112,
+A_tost,opp_d_terr,r_hi95,0.021884516461084268,
+A_tost,opp_d_terr,p_tost_sesoi_0.10,0.0030419359124351786,equivalent
+A_tost,opp_d_terr,p_tost_sesoi_0.05,0.2078659333448678,inconclusive at 0.05
+A_tost,opp_d_compl,n,1490,opponent completion delta (defensive disruption)
+A_tost,opp_d_compl,partial_r,0.02866927717631717,
+A_tost,opp_d_compl,r_lo95,-0.022107243318465128,
+A_tost,opp_d_compl,r_hi95,0.07944579767109947,
+A_tost,opp_d_compl,p_tost_sesoi_0.10,0.002948963512112546,equivalent
+A_tost,opp_d_compl,p_tost_sesoi_0.05,0.20514683247097693,inconclusive at 0.05
+A_tost,win,n,1490,final result
+A_tost,win,partial_r,0.019141689689977363,
+A_tost,win,r_lo95,-0.031634830804804934,
+A_tost,win,r_hi95,0.06991821018475966,
+A_tost,win,p_tost_sesoi_0.10,0.0009006618904123109,equivalent
+A_tost,win,p_tost_sesoi_0.05,0.11679798662518315,inconclusive at 0.05
+A_tost,d_vol,n,1490,pass volume delta
+A_tost,d_vol,partial_r,0.01724130433094464,
+A_tost,d_vol,r_lo95,-0.03353521616383766,
+A_tost,d_vol,r_hi95,0.06801782482572694,
+A_tost,d_vol,p_tost_sesoi_0.10,0.0007002971977708651,equivalent
+A_tost,d_vol,p_tost_sesoi_0.05,0.10302483936250717,inconclusive at 0.05
+A_tost,net_rem,n,1490,net goals remaining
+A_tost,net_rem,partial_r,0.010504941053547965,
+A_tost,net_rem,r_lo95,-0.04027157944123433,
+A_tost,net_rem,r_hi95,0.061281461548330265,
+A_tost,net_rem,p_tost_sesoi_0.10,0.0002756002284552731,equivalent
+A_tost,net_rem,p_tost_sesoi_0.05,0.06368821689025664,inconclusive at 0.05
+A_tost,d_poss,n,1490,possession share delta
+A_tost,d_poss,partial_r,0.007639983501446657,
+A_tost,d_poss,r_lo95,-0.04313653699333564,
+A_tost,d_poss,r_hi95,0.058416503996228955,
+A_tost,d_poss,p_tost_sesoi_0.10,0.00018182789437563108,equivalent
+A_tost,d_poss,p_tost_sesoi_0.05,0.051012095449291854,inconclusive at 0.05
+A_tost,next_for,n,860,scores next goal
+A_tost,next_for,partial_r,-0.007090186175548451,
+A_tost,next_for,r_lo95,-0.07392563144365485,
+A_tost,next_for,r_hi95,0.059745259092557956,
+A_tost,next_for,p_tost_sesoi_0.10,0.003218478462821972,equivalent
+A_tost,next_for,p_tost_sesoi_0.05,0.10413029743411362,inconclusive at 0.05
+A_tost,SUMMARY,n_competitive_outcomes,10,
+A_tost,SUMMARY,n_equivalent_at_0.10,10,
+A_tost,SUMMARY,n_equivalent_at_0.05,0,
+A_tost,SUMMARY,max_abs_r_competitive,0.04401017895552927,d_prog
+B_replication,World Cup22,fwd_shift_early,1.3978700927987349,
+B_replication,World Cup22,fwd_shift_late,3.355242841258261,
+B_replication,World Cup22,replicates_late_gt_early,1,
+B_replication,Euro24,fwd_shift_early,3.2806834544292096,
+B_replication,Euro24,fwd_shift_late,-1.079172221376498,
+B_replication,Euro24,replicates_late_gt_early,0,
+B_replication,Euro20,fwd_shift_early,1.731106184370802,
+B_replication,Euro20,fwd_shift_late,-2.189185655943376,
+B_replication,Euro20,replicates_late_gt_early,0,
+B_replication,ISL,fwd_shift_early,1.1102588063139578,
+B_replication,ISL,fwd_shift_late,3.1206056178115738,
+B_replication,ISL,replicates_late_gt_early,1,
+B_replication,WSL,fwd_shift_early,2.6339045323723576,
+B_replication,WSL,fwd_shift_late,3.8219683786260834,
+B_replication,WSL,replicates_late_gt_early,1,
+B_replication,Bundesliga23,fwd_shift_early,-0.18383229603234355,
+B_replication,Bundesliga23,fwd_shift_late,2.172922783156018,
+B_replication,Bundesliga23,replicates_late_gt_early,1,
+B_replication,Bundesliga15,fwd_shift_early,1.0931552328630287,
+B_replication,Bundesliga15,fwd_shift_late,-0.6755054574941721,
+B_replication,Bundesliga15,replicates_late_gt_early,0,
+B_replication,LaLiga15,fwd_shift_early,0.8462347443615632,
+B_replication,LaLiga15,fwd_shift_late,1.1811442029666175,
+B_replication,LaLiga15,replicates_late_gt_early,1,
+B_replication,PL15,fwd_shift_early,1.1136673903040248,
+B_replication,PL15,fwd_shift_late,0.49542101039550057,
+B_replication,PL15,replicates_late_gt_early,0,
+B_replication,SerieA15,fwd_shift_early,1.151814732197882,
+B_replication,SerieA15,fwd_shift_late,0.3506996641119956,
+B_replication,SerieA15,replicates_late_gt_early,0,
+B_replication,SUMMARY,criterion,"same-sign only: mean fwd-shift(late) > mean fwd-shift(strategic), per competition; NO significance requirement","forward shift = post-window mean pass origin minus pre-window mean; replication = late-group mean above early-group mean per competition, no significance requirement"
+B_replication,SUMMARY,k_over_n,5/10,re-derived on the ten open-data competitions
+B_replication,SUMMARY,chance_per_comp_same_sign,0.5,
+B_replication,SUMMARY,p_binom_two_sided_at_0.5,1.0,
+B_replication,SUMMARY,p_binom_one_sided_at_0.5,0.623046875,
+B_replication,SUMMARY,chance_per_comp_sign_and_p05,0.025,hypothetical stricter rule: same sign and two-sided p<0.05; not the rule used
+B_replication,SUMMARY,p_binom_one_sided_at_0.025,2.215338504219056e-06,
+C_maxz,closest_to_BHmin_main,predictor,pre_dens_Z,
+C_maxz,closest_to_BHmin_main,p_main,0.001757141706435,
+C_maxz,closest_to_BHmin_main,abs_distance_to_thr,0.000368252817546111,thr=0.05/36=0.001389
+C_maxz,closest_to_BHmin_main,ratio_p_over_thr,1.2651420286332,
+C_maxz,closest_to_BHmin_interaction,predictor,trailing,
+C_maxz,closest_to_BHmin_interaction,p_inter,0.0022790196362623,
+C_maxz,closest_to_BHmin_interaction,abs_distance_to_thr,0.000890130747373411,thr=0.05/36=0.001389
+C_maxz,closest_to_BHmin_interaction,ratio_p_over_thr,1.640894138108856,
+C_maxz,perm_test,observed_max_abs_z,3.051235212930133,interaction family
+C_maxz,perm_test,B_permutations,50,
+C_maxz,perm_test,n_perm_ge_obs,4,
+C_maxz,perm_test,p_perm_raw,0.08,
+C_maxz,perm_test,p_perm_plus1,0.09803921568627451,(r+1)/(B+1)
+C_maxz,perm_test,perm_q95,3.1411432011000078,text cites 3.14
+C_maxz,perm_test,mvn_mc_p_reference,0.06037,"same statistic under the dependence-aware MVN null (NSIM=1e5), cross-reference"
+D_selection,pre_density_P_t15,n_retained,1285,
+D_selection,pre_density_P_t15,n_dropped,789,
+D_selection,pre_density_P_t15,mean_retained,0.028076636722551118,
+D_selection,pre_density_P_t15,mean_dropped,0.02563882814833385,
+D_selection,pre_density_P_t15,smd_ret_minus_drop,0.1678836334814582,
+D_selection,pre_clustering_P_t15,n_retained,1285,
+D_selection,pre_clustering_P_t15,n_dropped,789,
+D_selection,pre_clustering_P_t15,mean_retained,0.13425976267963152,
+D_selection,pre_clustering_P_t15,mean_dropped,0.12929281456729397,
+D_selection,pre_clustering_P_t15,smd_ret_minus_drop,0.09197636533767291,
+D_selection,pre_betweenness_P_t15,n_retained,1285,
+D_selection,pre_betweenness_P_t15,n_dropped,789,
+D_selection,pre_betweenness_P_t15,mean_retained,0.09540728901088824,
+D_selection,pre_betweenness_P_t15,mean_dropped,0.08621827682558567,
+D_selection,pre_betweenness_P_t15,smd_ret_minus_drop,0.2872797099201103,
+D_selection,pre_lambda2_P_t15,n_retained,1285,
+D_selection,pre_lambda2_P_t15,n_dropped,789,
+D_selection,pre_lambda2_P_t15,mean_retained,0.9482849194262367,
+D_selection,pre_lambda2_P_t15,mean_dropped,0.8742779883420834,
+D_selection,pre_lambda2_P_t15,smd_ret_minus_drop,0.10790802448357073,
+D_selection,pre_efficiency_P_t15,n_retained,1285,
+D_selection,pre_efficiency_P_t15,n_dropped,789,
+D_selection,pre_efficiency_P_t15,mean_retained,0.7732127563338606,
+D_selection,pre_efficiency_P_t15,mean_dropped,0.7109011384402223,
+D_selection,pre_efficiency_P_t15,smd_ret_minus_drop,0.1816572483433114,
+D_selection,pre_density_Z_t15,n_retained,1285,
+D_selection,pre_density_Z_t15,n_dropped,789,
+D_selection,pre_density_Z_t15,mean_retained,0.00453138216883776,
+D_selection,pre_density_Z_t15,mean_dropped,0.004393135075892556,
+D_selection,pre_density_Z_t15,smd_ret_minus_drop,0.060091833356303,
+D_selection,pre_clustering_Z_t15,n_retained,1285,
+D_selection,pre_clustering_Z_t15,n_dropped,789,
+D_selection,pre_clustering_Z_t15,mean_retained,0.0438059304079464,
+D_selection,pre_clustering_Z_t15,mean_dropped,0.042381724370486096,
+D_selection,pre_clustering_Z_t15,smd_ret_minus_drop,0.04646763756427015,
+D_selection,pre_betweenness_Z_t15,n_retained,1285,
+D_selection,pre_betweenness_Z_t15,n_dropped,789,
+D_selection,pre_betweenness_Z_t15,mean_retained,0.027775044152402045,
+D_selection,pre_betweenness_Z_t15,mean_dropped,0.028404927181584477,
+D_selection,pre_betweenness_Z_t15,smd_ret_minus_drop,-0.027446482067776647,
+D_selection,pre_lambda2_Z_t15,n_retained,1285,
+D_selection,pre_lambda2_Z_t15,n_dropped,789,
+D_selection,pre_lambda2_Z_t15,mean_retained,0.08929684183411207,
+D_selection,pre_lambda2_Z_t15,mean_dropped,0.08762384179614814,
+D_selection,pre_lambda2_Z_t15,smd_ret_minus_drop,0.015923784667285567,
+D_selection,pre_efficiency_Z_t15,n_retained,1285,
+D_selection,pre_efficiency_Z_t15,n_dropped,789,
+D_selection,pre_efficiency_Z_t15,mean_retained,0.16678946567630612,
+D_selection,pre_efficiency_Z_t15,mean_dropped,0.16309491275330085,
+D_selection,pre_efficiency_Z_t15,smd_ret_minus_drop,0.03549912589113683,
+D_selection,pre_vers_P_w10_Z_t15,n_retained,1285,
+D_selection,pre_vers_P_w10_Z_t15,n_dropped,789,
+D_selection,pre_vers_P_w10_Z_t15,mean_retained,0.04466837473926285,
+D_selection,pre_vers_P_w10_Z_t15,mean_dropped,0.044299899824642254,
+D_selection,pre_vers_P_w10_Z_t15,smd_ret_minus_drop,0.06336459827797704,
+D_selection,pre_vers_Z_w10_Z_t15,n_retained,1285,
+D_selection,pre_vers_Z_w10_Z_t15,n_dropped,789,
+D_selection,pre_vers_Z_w10_Z_t15,mean_retained,0.021405468218410193,
+D_selection,pre_vers_Z_w10_Z_t15,mean_dropped,0.021432759285560033,
+D_selection,pre_vers_Z_w10_Z_t15,smd_ret_minus_drop,-0.04976910423337046,
+D_selection,minute_first,n_retained,1285,supplementary (not one of the 12 covariates)
+D_selection,minute_first,n_dropped,790,
+D_selection,minute_first,mean_retained,67.03035019455253,
+D_selection,minute_first,mean_dropped,75.58101265822785,
+D_selection,minute_first,smd_ret_minus_drop,-0.7661754727022769,
+D_selection,SUMMARY,n_retained_batches,1285,
+D_selection,SUMMARY,n_dropped_batches,790,
+D_selection,SUMMARY,n_abs_smd_gt_0.1,4,among the 12 covariates
+D_selection,SUMMARY,max_abs_smd,0.2872797099201103,pre_betweenness_P_t15

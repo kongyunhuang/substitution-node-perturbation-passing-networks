@@ -1,0 +1,43 @@
+section,variant,timing,n,est,stat,p,note
+attrition,zone-flow,strategic,419,425.0,0.0,,"entry=425,clock_fail=0,npass_fail=6,loss_pct=1.4"
+attrition,zone-flow,regular,402,404.0,0.0,,"entry=404,clock_fail=0,npass_fail=2,loss_pct=0.5"
+attrition,zone-flow,late,73,73.0,0.0,,"entry=73,clock_fail=0,npass_fail=0,loss_pct=0.0"
+attrition,d_terr,strategic,432,437.0,0.0,,"entry=437,clock_fail=0,npass_fail=5,loss_pct=1.1"
+attrition,d_terr,regular,414,417.0,0.0,,"entry=417,clock_fail=0,npass_fail=3,loss_pct=0.7"
+attrition,d_terr,late,86,86.0,0.0,,"entry=86,clock_fail=0,npass_fail=0,loss_pct=0.0"
+placebo_zone_snr,N=73,strategic,419,1.049,,0.3775,"main_snr=1.052,main_p=0.39"
+placebo_zone_snr,N=73,regular,402,1.37,,0.04,"main_snr=1.561,main_p=0.0025"
+placebo_zone_snr,N=73,late,73,1.511,,0.01,"main_snr=1.594,main_p=0.0075"
+placebo_dterr,excl (perturber excluded),strategic,432,2.061,2.87,0.0043,main=+0.389
+placebo_dterr,excl (perturber excluded),regular,414,0.964,1.32,0.1889,main=+1.232
+placebo_dterr,excl (perturber excluded),late,86,0.712,0.45,0.655,main=+3.792
+placebo_dterr,incl (perturber included),strategic,432,2.065,3.02,0.0027,main=+0.741
+placebo_dterr,incl (perturber included),regular,414,0.961,1.37,0.1713,main=+1.574
+placebo_dterr,incl (perturber included),late,86,0.959,0.66,0.5081,main=+3.935
+selection_pre_origin,treated-ctrl,strategic,437,0.664,1.14,0.2558,"treated=56.09,ctrl=55.43"
+selection_pre_origin,treated-ctrl,regular,417,-1.762,-2.45,0.0146,"treated=55.55,ctrl=57.31"
+selection_pre_origin,treated-ctrl,late,86,-4.048,-2.94,0.0042,"treated=56.93,ctrl=60.98"
+dterr_adjusted,unadjusted,strategic,437,0.389,0.763,0.6104615780978249,at_xbar=55.93
+dterr_adjusted,unadjusted,regular,417,1.232,0.781,0.11506253416861188,at_xbar=55.93
+dterr_adjusted,unadjusted,late,86,3.792,1.719,0.027685766478345024,at_xbar=55.93
+dterr_adjusted,linear,strategic,437,0.51,0.696,0.4640639285139886,at_xbar=55.93
+dterr_adjusted,linear,regular,417,0.951,0.713,0.18228359922128476,at_xbar=55.93
+dterr_adjusted,linear,late,86,4.535,1.57,0.003962173047427681,at_xbar=55.93
+dterr_adjusted,spline_cr4,strategic,437,-0.026,0.774,0.9737192664039194,at_xbar=55.93
+dterr_adjusted,spline_cr4,regular,417,0.219,0.816,0.7887383075865255,at_xbar=55.93
+dterr_adjusted,spline_cr4,late,86,4.054,1.604,0.011658796272840527,at_xbar=55.93
+late_tertile,T1_low,late,29,12.363,5.71,0.0,mean_pre_origin=48.10
+late_tertile,T2_mid,late,28,5.741,2.33,0.0276,mean_pre_origin=56.56
+late_tertile,T3_high,late,29,-6.662,-2.81,0.009,mean_pre_origin=66.13
+negctrl_volume,completed_passes,strategic,419,3.3,1.91,0.0572,
+negctrl_volume,completed_passes,regular,402,7.46,4.28,0.0,
+negctrl_volume,completed_passes,late,73,7.79,1.31,0.1928,
+prior_sub_share,prepre_union_pre,strategic,419,21.5,90.0,,"share_pct; window=[pre.t_start-900,pre.t_end)"
+prior_sub_share,prepre_union_pre,regular,402,53.7,216.0,,"share_pct; window=[pre.t_start-900,pre.t_end)"
+prior_sub_share,prepre_union_pre,late,73,87.7,64.0,,"share_pct; window=[pre.t_start-900,pre.t_end)"
+zone_snr_noprior,placebo,strategic,329,1.089,0.0441,0.32,N_common=186
+zone_snr_noprior,placebo,regular,186,1.524,0.0963,0.0075,N_common=186
+zone_snr_noprior,placebo,late,9,,0.2555,,n<20: descriptive_only(stat=||mean dz||)
+zone_snr_noprior,main,strategic,329,1.126,0.0466,0.225,N_common=186
+zone_snr_noprior,main,regular,186,1.976,0.141,0.0,N_common=186
+zone_snr_noprior,main,late,9,,0.2659,,n<20: descriptive_only(stat=||mean dz||)

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/
+results/figures/*.pdf
+results/figures/*.png
+results/tables/*.md
+results/figures/_design_drafts/
+results/reports/

@@ -1,0 +1,7 @@
+family,stat,observed,mc_p,n_sim
+main,mean_abs_z,1.680713882579671,0.00021,100000
+main,max_abs_z,4.74872294129514,5e-05,100000
+main,n_outside_pointwise_95,35.0,,100000
+interaction,mean_abs_z,0.6910399305932237,0.70616,100000
+interaction,max_abs_z,3.051235212930133,0.06037,100000
+interaction,n_outside_pointwise_95,0.0,,100000
